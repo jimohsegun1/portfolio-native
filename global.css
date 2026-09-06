@@ -1,0 +1,35 @@
+:root {
+  --color-background: 255 255 255;
+  --color-foreground: 9 9 11;
+  --color-primary: 124 58 237;
+  --color-card: 248 248 248;
+  --color-card-border: 228 228 231;
+  --color-secondary: 244 244 245;
+  --color-secondary-border: 212 212 216;
+  --color-muted: 113 113 122;
+  --color-muted-foreground: 82 82 91;
+  --color-destructive: 239 68 68;
+  --color-success-text: 22 163 74;
+  --color-success-bg: 240 253 244;
+  --color-success-border: 187 247 208;
+}
+
+.dark {
+  --color-background: 9 9 11;
+  --color-foreground: 250 250 250;
+  --color-primary: 124 58 237;
+  --color-card: 17 17 19;
+  --color-card-border: 39 39 42;
+  --color-secondary: 28 28 31;
+  --color-secondary-border: 63 63 70;
+  --color-muted: 113 113 122;
+  --color-muted-foreground: 161 161 170;
+  --color-destructive: 239 68 68;
+  --color-success-text: 34 197 94;
+  --color-success-bg: 20 83 45;
+  --color-success-border: 34 197 94;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
